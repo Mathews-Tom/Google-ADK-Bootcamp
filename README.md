@@ -2,6 +2,8 @@
 
 **Welcome to the Google Agent Development Kit (ADK) Bootcamps!**
 
+![Google-ADK-Bootcamp](assets/Google-ADK-Bootcamp.png)
+
 This repository is your comprehensive, hands-on guide to mastering LLM-powered agent development using Google’s Agent Development Kit (ADK). Designed for both beginners and experienced developers, these bootcamps walk you through the nitty-gritty of ADK — from core concepts to advanced patterns — using real-world examples, modular lessons, and best practices to accelerate your learning.
 
 ## Project Overview
@@ -84,7 +86,7 @@ Repeat this for each example you wish to run.
 
 ## Module Overview
 
-Below is a summary of each module in this course:
+Below is a summary of each module in this bootcamp:
 
 ### Module 1: Basic Agent
 
@@ -134,10 +136,43 @@ Below is a summary of each module in this course:
 
 **Purpose:** Builds agents that iteratively refine their outputs through feedback loops, enabling self-improvement.
 
+## 📘 Additional Learning Resources
+
+To complement the bootcamp modules, I’ve included extended documentation under the [docs/](docs/) folder:
+
+[📄 ADK_Best_Practices.md](docs/ADK_Best_Practices.md): Best practices for structuring, scaling, and managing your ADK-based projects, including folder conventions, modular design, and real-world implementation tips.
+
+[🔁 Callbacks_and_Workflows.md:](docs/Callbacks_and_Workflows.md): A deep dive into ADK’s advanced features such as callbacks and workflow agents (sequential, parallel, and loop-based agents), with diagrams and real-world use cases.
+
+These docs are designed to help you go beyond the basics and build production-grade agents with confidence.
+
 ## Official Documentation
 
+### Google ADK Documentation
+
 For more detailed information, check out the official ADK documentation:  
-<https://cloud.google.com/agent-development-kit/docs>
+
+#### Documentation
+
+- [Agent Development Kit (ADK) - Python](https://github.com/google/adk-python)
+- [ADK Docs/](https://google.github.io/adk-docs/)
+- [Agent Development Kit (ADK) Samples](https://github.com/google/adk-samples)
+
+#### Development
+
+- [Get Started](https://google.github.io/adk-docs/get-started/)
+- [Tutorials](https://google.github.io/adk-docs/tutorials/)
+- [Agents](https://google.github.io/adk-docs/agents/)
+- [Tools](https://google.github.io/adk-docs/tools/)
+- [Running Agents](https://google.github.io/adk-docs/runtime/)
+- [Sessions & Memory](https://google.github.io/adk-docs/sessions/)
+- [Callbacks](https://google.github.io/adk-docs/callbacks/)
+- [Workflow Agents](https://google.github.io/adk-docs/agents/workflow-agents/)
+- [Agent2Agent (A2A) Protocol](https://github.com/google-a2a/A2A)
+
+### LiteLLM Documentation
+
+- [LiteLLM](https://docs.litellm.ai/docs/)
 
 ## Contributing
 
