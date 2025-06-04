@@ -69,6 +69,7 @@ When using `output_schema`:
 ### Setup
 
 1. Activate the virtual environment from the root directory:
+
 ```bash
 # macOS/Linux:
 source ../.venv/bin/activate
@@ -79,6 +80,7 @@ source ../.venv/bin/activate
 ```
 
 2. Create a `.env` file and add your Google API key:
+
 ```
 GOOGLE_API_KEY=your_api_key_here
 ```
@@ -121,4 +123,4 @@ This pattern enables reliable data passing between agents and integration with e
 ## Additional Resources
 
 - [ADK Structured Data Documentation](https://google.github.io/adk-docs/agents/llm-agents/#structuring-data-input_schema-output_schema-output_key)
-- [Pydantic Documentation](https://docs.pydantic.dev/latest/) 
+- [Pydantic Documentation](https://docs.pydantic.dev/latest/)

@@ -39,6 +39,7 @@ The example uses a simple question-answering agent that responds based on stored
 ### Setup
 
 1. Activate the virtual environment from the root directory:
+
 ```bash
 # macOS/Linux:
 source ../.venv/bin/activate
@@ -49,6 +50,7 @@ source ../.venv/bin/activate
 ```
 
 2. Create a `.env` file and add your Google API key:
+
 ```
 GOOGLE_API_KEY=your_api_key_here
 ```
@@ -62,6 +64,7 @@ python basic_stateful_session.py
 ```
 
 This will:
+
 1. Create a new session with user information
 2. Initialize the agent with access to that session
 3. Process a user query about the stored preferences
