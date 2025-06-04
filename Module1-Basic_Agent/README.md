@@ -77,14 +77,14 @@ This example uses the same virtual environment created in the root directory. Ma
 
 1. Activated the virtual environment from the root directory:
 
-```bash
-# macOS/Linux:
-source ../.venv/bin/activate
-# Windows CMD:
-..\.venv\Scripts\activate.bat
-# Windows PowerShell:
-..\.venv\Scripts\Activate.ps1
-```
+    ```bash
+    # macOS/Linux:
+    source ../.venv/bin/activate
+    # Windows CMD:
+    ..\.venv\Scripts\activate.bat
+    # Windows PowerShell:
+    ..\.venv\Scripts\Activate.ps1
+    ```
 
 2. Set up your API key:
    - Rename `.env.example` to `.env` in the greeting_agent folder
@@ -97,9 +97,9 @@ To run this basic agent example, you'll use the ADK CLI tool which provides seve
 1. Navigate to the 1-basic-agent directory containing your agent folder.
 2. Start the interactive web UI:
 
-```bash
-adk web
-```
+    ```bash
+    adk web
+    ```
 
 3. Access the web UI by opening the URL shown in your terminal (typically <http://localhost:8000>)
 

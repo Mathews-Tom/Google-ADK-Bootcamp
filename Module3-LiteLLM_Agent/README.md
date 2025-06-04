@@ -41,14 +41,14 @@ This example uses the same virtual environment created in the root directory. Ma
 
 1. Activated the virtual environment from the root directory:
 
-```bash
-# macOS/Linux:
-source ../.venv/bin/activate
-# Windows CMD:
-..\.venv\Scripts\activate.bat
-# Windows PowerShell:
-..\.venv\Scripts\Activate.ps1
-```
+    ```bash
+    # macOS/Linux:
+    source ../.venv/bin/activate
+    # Windows CMD:
+    ..\.venv\Scripts\activate.bat
+    # Windows PowerShell:
+    ..\.venv\Scripts\Activate.ps1
+    ```
 
 2. Set up your OpenRouter API key:
    - Create an account at [OpenRouter](https://openrouter.ai/) if you don't have one
@@ -74,9 +74,9 @@ To run the LiteLLM agent example:
 
 2. Start the interactive web UI:
 
-```bash
-adk web
-```
+    ```bash
+    adk web
+    ```
 
 3. Access the web UI by opening the URL shown in your terminal (typically <http://localhost:8000>)
 

@@ -112,20 +112,20 @@ Each change to `tool_context.state` is automatically saved to the database.
 
 1. Activate the virtual environment from the root directory:
 
-```bash
-# macOS/Linux:
-source ../.venv/bin/activate
-# Windows CMD:
-..\.venv\Scripts\activate.bat
-# Windows PowerShell:
-..\.venv\Scripts\Activate.ps1
-```
+    ```bash
+    # macOS/Linux:
+    source ../.venv/bin/activate
+    # Windows CMD:
+    ..\.venv\Scripts\activate.bat
+    # Windows PowerShell:
+    ..\.venv\Scripts\Activate.ps1
+    ```
 
 2. Make sure your Google API key is set in the `.env` file:
 
-```
-GOOGLE_API_KEY=your_api_key_here
-```
+    ```text
+    GOOGLE_API_KEY=your_api_key_here
+    ```
 
 ### Running the Example
 
