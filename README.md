@@ -1,7 +1,8 @@
-# Agent Development Kit (ADK) Crash Course
+# Google Agent Development Kit (ADK) Bootcamp
 
-Welcome to the **Agent Development Kit (ADK) Crash Course**!  
-This repository provides a hands-on, modular introduction to building LLM-powered agents using Google's Agent Development Kit (ADK). Whether you're new to intelligent agents or looking to deepen your understanding of advanced agent architectures, this course will guide you through practical examples, best practices, and modern tooling.
+**Welcome to the Google Agent Development Kit (ADK) Bootcamps!**
+
+This repository is your comprehensive, hands-on guide to mastering LLM-powered agent development using Google’s Agent Development Kit (ADK). Designed for both beginners and experienced developers, these bootcamps walk you through the nitty-gritty of ADK — from core concepts to advanced patterns — using real-world examples, modular lessons, and best practices to accelerate your learning.
 
 ## Project Overview
 
