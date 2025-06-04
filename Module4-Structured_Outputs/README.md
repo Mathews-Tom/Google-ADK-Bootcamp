@@ -55,7 +55,7 @@ When using `output_schema`:
 
 ## Project Structure
 
-```
+```text
 4-structured-outputs/
 │
 ├── email_agent/                   # Email Generator Agent package
@@ -98,15 +98,15 @@ Then select "email_generator" from the dropdown menu in the web UI.
 
 Try these example prompts:
 
-```
+```text
 Write a professional email to my team about the upcoming project deadline that has been extended by two weeks.
 ```
 
-```
+```text
 Draft an email to a client explaining that we need additional information before we can proceed with their order.
 ```
 
-```
+```text
 Create an email to schedule a meeting with the marketing department to discuss the new product launch strategy.
 ```
 

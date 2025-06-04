@@ -33,7 +33,6 @@ When using LiteLLM to integrate non-Google models with ADK, there are some impor
 
 2. **Custom Function Tools Only**: When using non-Google models, you can only use custom function tools (like the `get_dad_joke()` function in this example).
 
-
 These limitations exist because built-in tools are specifically designed to work with Google's models and infrastructure. However, you can still create powerful agents using custom function tools and the wide variety of models available through LiteLLM.
 
 ## Getting Started
@@ -41,6 +40,7 @@ These limitations exist because built-in tools are specifically designed to work
 This example uses the same virtual environment created in the root directory. Make sure you have:
 
 1. Activated the virtual environment from the root directory:
+
 ```bash
 # macOS/Linux:
 source ../.venv/bin/activate
@@ -52,7 +52,7 @@ source ../.venv/bin/activate
 
 2. Set up your OpenRouter API key:
    - Create an account at [OpenRouter](https://openrouter.ai/) if you don't have one
-   - Generate an API key at https://openrouter.ai/keys
+   - Generate an API key at <https://openrouter.ai/keys>
    - Rename `.env.example` to `.env` in the openrouter_dad_joke_agent folder
    - Add your OpenRouter API key to the `OPENROUTER_API_KEY` variable in the `.env` file
 
@@ -73,11 +73,12 @@ To run the LiteLLM agent example:
 1. Navigate to the 3-litellm-agent directory containing your agent folder.
 
 2. Start the interactive web UI:
+
 ```bash
 adk web
 ```
 
-3. Access the web UI by opening the URL shown in your terminal (typically http://localhost:8000)
+3. Access the web UI by opening the URL shown in your terminal (typically <http://localhost:8000>)
 
 4. Select the "openrouter_dad_joke_agent" from the dropdown menu in the top-left corner of the UI
 

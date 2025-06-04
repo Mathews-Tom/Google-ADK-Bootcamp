@@ -9,6 +9,7 @@ In this example, we demonstrate how to build an agent that can use built-in tool
 ## Key Components
 
 ### 1. Built-in Tools
+
 ADK provides several built-in tools that you can use with your agents:
 
 - **Google Search**: Allows your agent to search the web for information
@@ -18,9 +19,10 @@ ADK provides several built-in tools that you can use with your agents:
 **Important Note**: Currently, for each root agent or single agent, only one built-in tool is supported. See the [ADK documentation](https://google.github.io/adk-docs/tools/built-in-tools/#use-built-in-tools-with-other-tools) for more details.
 
 ### 2. Custom Function Tools
+
 You can create your own tools by defining Python functions. These custom tools extend your agent's capabilities to perform specific tasks.
 
-#### Best Practices for Custom Function Tools:
+#### Best Practices for Custom Function Tools
 
 - **Parameters**: Define your function parameters using standard JSON-serializable types (string, integer, list, dictionary)
 - **No Default Values**: Default values are not currently supported in ADK
@@ -90,6 +92,7 @@ The file also includes a commented-out example of a custom function tool `get_cu
 This example uses the same virtual environment created in the root directory. Make sure you have:
 
 1. Activated the virtual environment from the root directory:
+
 ```bash
 # macOS/Linux:
 source ../.venv/bin/activate
@@ -110,11 +113,12 @@ To run the tool agent example:
 1. Navigate to the 2-tool-agent directory containing your agent folder.
 
 2. Start the interactive web UI:
+
 ```bash
 adk web
 ```
 
-3. Access the web UI by opening the URL shown in your terminal (typically http://localhost:8000)
+3. Access the web UI by opening the URL shown in your terminal (typically <http://localhost:8000>)
 
 4. Select the "tool_agent" from the dropdown menu in the top-left corner of the UI
 
