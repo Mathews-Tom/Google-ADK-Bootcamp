@@ -88,7 +88,6 @@ GOOGLE_API_KEY=your_api_key_here
 ### Running the Example
 
 ```bash
-cd 4-structured-outputs
 adk web
 ```
 

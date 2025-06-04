@@ -192,7 +192,7 @@ add_user_query_to_history(
 The system implements conditional access to certain agents:
 
 ```text
-3. Course Support Agent
+Course Support Agent
    - For questions about course content
    - Only available for courses the user has purchased
    - Check if "ai_marketing_platform" is in the purchased courses before directing here

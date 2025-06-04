@@ -331,7 +331,6 @@ To see normal operation:
 ### Running the Examples
 
 ```bash
-cd 8-callbacks
 adk web
 ```
 
