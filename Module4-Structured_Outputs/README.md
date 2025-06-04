@@ -70,18 +70,18 @@ When using `output_schema`:
 
 1. Activate the virtual environment from the root directory:
 
-```bash
-# macOS/Linux:
-source ../.venv/bin/activate
-# Windows CMD:
-..\.venv\Scripts\activate.bat
-# Windows PowerShell:
-..\.venv\Scripts\Activate.ps1
-```
+    ```bash
+    # macOS/Linux:
+    source ../.venv/bin/activate
+    # Windows CMD:
+    ..\.venv\Scripts\activate.bat
+    # Windows PowerShell:
+    ..\.venv\Scripts\Activate.ps1
+    ```
 
 2. Create a `.env` file and add your Google API key:
 
-```
+```text
 GOOGLE_API_KEY=your_api_key_here
 ```
 
